@@ -15,4 +15,4 @@ df.groupBy("quality").avg("alcohol").show()
 # Guarda resultados
 df.write.csv("resultados/wine_batch", header=True)
 
-print("✅ Análisis batch completado y resultados guardados.")
+print("Análisis batch completado y resultados guardados.")
